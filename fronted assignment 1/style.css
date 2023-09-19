@@ -96,6 +96,7 @@ nav li:hover{
     background-color: #003251;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    border-bottom: 4px solid var(--lighting-color);
 }
 .project h2{
     font-size: 6rem;
@@ -108,6 +109,7 @@ nav li:hover{
 }
 .contact{
     background-color:var(--dark-color);
+    border-bottom: 4px solid var(--lighting-color);
 }
 .contact h2{
     font-size: 6rem;
@@ -132,4 +134,60 @@ footer {
     font-size: 1.6rem;
     text-align: center;
 }
+.education{
+    background-color: #003251;
+    border-bottom: 4px solid var(--lighting-color);
+}
+.education h2{
+    font-size: 6rem;
+}
 
+.education .container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: start;
+}
+table{
+    font-size: 5rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color:#003d62
+}
+.rate {
+    background-color: #003251;
+    border-bottom: 4px solid var(--lighting-color);
+}
+.rate h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.rate .container{
+    justify-content: center;
+    height: 50vh;
+}
+input[type=text], select, input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color:#0089b7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
